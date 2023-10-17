@@ -1,1 +1,62 @@
 this is amrudha from vvce. ok bye.
+
+student@CSSSL43 MINGW64 ~
+$ cd ..
+
+student@CSSSL43 MINGW64 /c/Users
+$ cd student/Desktop/ok
+
+student@CSSSL43 MINGW64 ~/Desktop/ok
+$ git clone https://github.com/RAKSHA-27/cl.git
+Cloning into 'cl'...
+warning: You appear to have cloned an empty repository.
+
+student@CSSSL43 MINGW64 ~/Desktop/ok
+$ git cl
+git: 'cl' is not a git command. See 'git --help'.
+
+The most similar commands are
+        clone
+        clean
+
+student@CSSSL43 MINGW64 ~/Desktop/ok
+$ cd cl
+
+student@CSSSL43 MINGW64 ~/Desktop/ok/cl (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/student/Desktop/ok/cl/.git/
+
+student@CSSSL43 MINGW64 ~/Desktop/ok/cl (main)
+$ nano fileo.txt
+
+student@CSSSL43 MINGW64 ~/Desktop/ok/cl (main)
+$ git add fileo.txt
+warning: in the working copy of 'fileo.txt', LF will be replaced by CRLF the next time Git touches it
+
+student@CSSSL43 MINGW64 ~/Desktop/ok/cl (main)
+$ git commit -m "done1"
+[main (root-commit) 8ac5811] done1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 fileo.txt
+
+student@CSSSL43 MINGW64 ~/Desktop/ok/cl (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+student@CSSSL43 MINGW64 ~/Desktop/ok/cl (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 246 bytes | 246.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/RAKSHA-27/cl.git
+ * [new branch]      main -> main
+
+student@CSSSL43 MINGW64 ~/Desktop/ok/cl (main)
+$ ^C
+
+student@CSSSL43 MINGW64 ~/Desktop/ok/cl (main)
