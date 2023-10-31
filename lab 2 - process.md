@@ -14,3 +14,11 @@
 <br>nano file1.txt
 <br>git add file1.txt
 <br>git commit -m "Branch1 File1"
+
+<b> Creat branch 1 from main </b>
+<br>git checkout -b "Branch_name"
+<br>nano file1.txt
+<br>git add file1.txt
+<br>git commit -m "Branch1 File1"
+
+<br> git branch
