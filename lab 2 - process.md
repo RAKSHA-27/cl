@@ -1,3 +1,4 @@
+--> for main branch one file should be pushed to show the main branch
 <br>Step 1:Search and fork the public repo
 <br>Step 2:git clone repo link from code
 <br>Step 3:cd repo name 
@@ -22,3 +23,6 @@
 <br>git commit -m "Branch2 File2"
 
 <br> git branch
+
+<br> git checkout "branch_name"       ----exit the present branch/change the branch
+<br> git checkout "main"              ----if two files in branch has same name then there will be a issue 
